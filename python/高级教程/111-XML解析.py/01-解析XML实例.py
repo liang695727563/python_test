@@ -17,7 +17,7 @@ class MovieHandler( xml.sax.ContentHandler ):
         self.CurrentData = tag
         if tag == "movie":
             print "*****Movie****"
-            title = atributes["title"]
+            title = attributes["title"]
             print "Title:", title
 
     def endElement(self, tag):
@@ -39,7 +39,7 @@ class MovieHandler( xml.sax.ContentHandler ):
     def characters(self, content):
         if self.CurrentData == "type":
             self.type = content
-        elif self.CurrentDate == "format":
+        elif self.CurrentData == "format":
             self.format = content
         elif self.CurrentData == "year":
             self.year = content
@@ -61,5 +61,6 @@ if ( __name__ == "__main__"):
     Handler = MovieHandler()
     parser.setContentHandler( Handler )
 
-    parser.parse("movies.xml")
+    parser.parse("D:\git_persion\python\movies.xml")
+    # 需要读取的文档的路径中不可以有中文
     # parser.parse("D:\git_persion\python\高级教程\111-XML解析.py\movies.xml")
