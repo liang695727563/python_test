@@ -1,0 +1,9 @@
+以下是Python基础学习相关的一些PDF链接：
+
+Python编程入门教程（第二版）：https://www.runoob.com/w3cnote/python-100-days.html
+Python基础教程（第三版）：http://www.klib.cn/teach/book.aspx?id=2015&courseid=56
+Python官方文档：https://docs.python.org/3/
+Python常见问题解答：https://docs.python.org/3/faq/
+Python编程：从入门到实践：https://www.ituring.com.cn/book/1861
+Python核心编程（第二版）：https://download.csdn.net/download/u012234115/10434847
+这些PDF资源可以帮助您更深入地学习Python基础知识，包括变量、数据类型、运算符、控制语句、函数和模块等。同时，您也可以在实践中不断提升自己的编程能力。
