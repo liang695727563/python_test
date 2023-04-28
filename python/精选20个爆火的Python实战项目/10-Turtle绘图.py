@@ -198,3 +198,5 @@ def draw(l):
         roo.backward(l)
 draw(60)
 wn.exitonclick()
+
+# https://www.dgrt.cn/a/269975.html?action=onClick
